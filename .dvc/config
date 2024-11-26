@@ -1,0 +1,4 @@
+[core]
+    remote = testdataset_remote
+['remote "testdataset_remote"']
+    url = Z:\MOA_NCU_DATASET_Storage\testDataset\Data
