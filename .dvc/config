@@ -1,4 +1,9 @@
 [core]
-    remote = testdataset_remote
+    remote = remote_testdataset
 ['remote "testdataset_remote"']
     url = Z:\MOA_NCU_DATASET_Storage\testDataset\Data
+['remote "remote_testdataset"']
+    url = s3://testdataset
+    endpointurl = http://10.52.52.138:31000
+    access_key_id = testdvctominio
+    secret_access_key = testdvctominio
